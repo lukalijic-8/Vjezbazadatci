@@ -1,6 +1,11 @@
+#create baze
 drop database if exists frizerski_salon;
+
 create database frizerski_salon;
+
 use frizerski_salon;
+
+#tablice untar baze
 create table frizerski_salon(
 	sifra int not null primary key auto_increment,
 	naziv varchar(50) not null,
